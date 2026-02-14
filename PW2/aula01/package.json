@@ -1,0 +1,9 @@
+{
+  "name": "aula01",
+  "version": "1.0.0",
+  "description": "Primeira aula de Node.js",
+  "main": "index.js",
+  "author": "MrJungleMaster",
+  "license": "MIT",
+  "type": "module"
+}
