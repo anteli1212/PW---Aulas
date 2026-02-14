@@ -1,0 +1,17 @@
+import { EntitySchema } from "typeorm";
+
+const author = new EntitySchema({
+    name: "Author",
+    tableName: "Author",
+    columns: {
+        id: {primary: true, type: "int", generated: "increment"},
+        name: {type: "varchar", length: 50, nullable: false},
+        birthDate: {type: "datetime", nullable: false},
+        nationality: {type: "varchar", length: 50, nullable: false},
+        password: {type: "varchar", length: 50, nullable: false},
+        createdAt: {type: "datetime", nullable: false, default: () => "CURRENT_TIMESTAMP"},
+        deletedAt: {type: "datetime", nullable: true}
+    }
+});
+
+export default author;
