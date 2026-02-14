@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guilherme">
+
+    <title>Página de Login</title>
+    
+   <link rel = "icon" href = "img/HP icon.png">
+   <script src="js/script1.js"></script>
+
+   <style>
+
+    body{
+        background-color: darkgray;
+    }
+
+   </style>
+</head>
+
+<body>
+    <h1> FORMULÁRIO NOME</h1>
+
+    <form>
+        <p> Nome: <input type="text" placeholder="João" id = "input-nome"> </p>
+        <p> Idade: <input type="number" placeholder="16 anos" id = "input-idade"> </p>
+        <button onclick="Alerta()"> ENVIAR </button>
+    </form>
+
+    <br>
+    <br>
+
+    <h1> FORMULÁRIO CONTEMPLADO</h1>
+
+    <form>
+        <p> Salário 1: <input type="number" id = "input-p1"> </p>
+        <p> Salário 2: <input type="number" id = "input-p2"> </p>
+        <button onclick="CompraSalario()"> ENVIAR </button>
+    </form>
+
+    <br>
+    <br>
+
+    <h1> FORMULÁRIO COMPRA</h1>
+
+    <form>
+        <p> Dinheiro: <input type="number" id="dinheiro"></p>
+        <h2>Itens</h2>
+        <p> Preço Computador: <input type="number" id="preco"> <button onclick="Comprar()"> COMPRAR </button></p>
+    </form>
+
+    <br>
+    <br>
+
+    <h1> CALCULADORA</h1>
+
+    <form>
+        <p> Numero 1: <input type="number" id="numero1"></p>
+        <p> Numero 2: <input type="number" id="numero2"></p>
+
+        <p> Resultado: <input type="number" readonly id="resultado"></p>
+
+    </form>
+
+    <button onclick="Calc('Sum')"> SOMA </button>
+    <button onclick="Calc('Sub')"> SUBTRAÇÃO </button>
+    <button onclick="Calc('Mul')"> MULTIPLICAÇÃO </button>
+    <button onclick="Calc('Div')"> DIVISÃO </button>
+    <button onclick="Calc('Pow')"> POTENCIAÇÃO </button>
+    <button onclick="Calc('Res')"> RESTO </button>
+
+    <br>
+    <br>
+
+
+</body>
+
+
+</html>

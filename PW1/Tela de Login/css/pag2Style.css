@@ -1,0 +1,13 @@
+
+.AllCards{
+    display: flex;
+    justify-content: space-between; /* Espaço entre os itens */
+}
+
+.card{
+    margin: 0 5px;
+}
+
+.card-img-top{
+    height: 400px;
+}
