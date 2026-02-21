@@ -1,0 +1,13 @@
+.classe1{
+    color: blue;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.classe2{
+    color: rgb(213, 213, 251);
+    background-color: rgb(0, 69, 129);
+    border-radius: 20px;
+    font-size: 16px;
+}

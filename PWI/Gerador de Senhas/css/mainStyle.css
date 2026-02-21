@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+}
+
+body{
+    background-color: #F0F2F5;
+    font-family: "Roboto";
+}
+
+/* NAVIGATION ELEMENTS */
+.Nav-Items{
+    width: 100%;
+    background-color: #fff;
+    border: solid 4px #eaeaea;
+    height: 60px;
+    padding: 10px 0;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.Nav-All{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Nav-Items h1{
+    font-size: 30px;
+    color: #d71340;
+}
+
+.Nav-Items h2{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.Nav-Items h1:hover{
+    cursor: pointer;
+}
+
+.Nav-Items h2:hover{
+    cursor: pointer;
+}
+
+.Nav-Items button{
+    font-weight: bold;
+    padding: 5px;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #d71340;
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+
+.Nav-Items button:hover{
+    cursor: pointer;
+}
+
+.Nav-Items img{
+    width: 45px;
+}
+
+.Nav-Items img:hover{
+    cursor: pointer;
+}
+
+.Left-Nav-Items{
+    padding-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Right-Nav-Items{
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+/* PASSWORD GENERATOR */
+.Password-Generate{
+    background-color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    padding: 0px 0;
+    border: solid 4px #eaeaea;
+    justify-content: center;
+    display: block;
+
+}
+
+.Password-Generate h1{
+    font-size: 50px;
+}
+
+.Generated-Password{
+    width: 500px;
+    height: 60px;
+    border: solid 2px #eaeaea;
+    border-radius: 5px;
+    padding: 20px 5px;
+    margin: 20px 0;
+}
+
+#Generated-Password-Form{
+    width: auto;
+}
+
+#Generated-Password-Input{
+    border: 0;
+    outline: none;
+    text-align: left;
+    width: 100%;
+    font-size: 30px;
+}

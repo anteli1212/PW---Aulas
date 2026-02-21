@@ -1,0 +1,2 @@
+JSON -> JavaScript Object Notation
+| Formato padrão para banco de dados -> FrontEnd para BackEnd
